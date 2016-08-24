@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Exemplo do uso de div</title>
+	<link rel="stylesheet" type="text/css" href="css\stylesheet.css">
+</head>
+<body>
+	<nav class="nav">
+		<th>
+			<td><a href="#" target="_top">Input</a></td>
+			<td><a href="#" target="_top">OutPut</a></td>
+			<br>
+		</th>
+	</nav>
+	<article class="article">
+		<form action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="get" enctype="multipart/form-data">
+			<label for="nome">Nome</label><input type="text" id="nome" name="nome" placeholder="Digite aqui o seu nome" autofocus> <br><br>
+			<label>Escola:<input type="text" name="escola" placeholder="Digite aqui a sua escola" required></label>
+			<br><br>
+			<label>City of Birth<select name="cidades">
+				<option value="hto">Hortolândia</option>
+				<option value="sum">Sumaré</option>
+				<option value="cps">Campinas</option>
+			</select><br><br></label>
+
+			<label> Birth date: <input type="date" name="data"><br><br></label>
+			<label>Time of birth: </label><input type="time" name="hora"><br><br>
+			<label>Select your favorite color: <input type="color" name="cor"><br><br></label>
+			<label for="nome">Username:</label><input type="text" id="nome" name="nome" placeholder="Digite aqui o seu nome" > <br><br>
+			<label>Password:<input type="password" name="password" required><br><br></label>
+			<label> Play with that: <input type="range"> </label><br><br>
+			<label>FieldSet:<input type="fieldset" name="fieldset" required><br><br></label>
+		</div>
+		<br><br>
+		<input type="submit">
+
+		<p>Give us your feedback</p>
+		<p> Pick a product</p>
+		<input type="checkbox" name="item" value="blusas">Web<br>
+		<input type="checkbox" name="item" value="Livros">POO<br>
+		<input type="checkbox" name="item" value="canetas">STATS<br>
+		<input type="checkbox" name="item" value="calças">MATH<br>
+		<br>
+		<p> Favorite Course </p>
+		<input type="radio" name="op">Eletronic<br>
+		<input type="radio" name="op">Physics<br>
+		<input type="radio" name="op">Mechanics<br>
+	
+		<input type="submit">	
+	</article>
+	
+	<footer class="foot">
+		<a href="mailto:x@hotmail.com?Subject=Hello%20again" target="_top">Send Mail</a>
+	</footer>
+</body>
